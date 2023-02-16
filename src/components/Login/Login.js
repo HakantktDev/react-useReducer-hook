@@ -12,9 +12,7 @@ import Button from "../UI/Button/Button";
 //     300
 //   );
 // }
-// const testFunc = (x) => {
-//   return (y) => console.log(x - y);
-// };
+// const testFunc = (x) => (y) => console.log(x - y);
 // testFunc(30)(40);
 
 const emailReducer = (state, action) => {

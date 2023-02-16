@@ -4,6 +4,19 @@ import Card from "../UI/Card/Card";
 import classes from "./Login.module.css";
 import Button from "../UI/Button/Button";
 
+// for (var i = 0; i < 10; i++) {
+//   setTimeout(
+//     (function () {
+//       console.log(i);
+//     })(i),
+//     300
+//   );
+// }
+// const testFunc = (x) => {
+//   return (y) => console.log(x - y);
+// };
+// testFunc(30)(40);
+
 const emailReducer = (state, action) => {
   if (action.type === "USER_INPUT") {
     return { value: action.val, isValid: action.val.includes("@") };
